@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A6C7669-B7D5-5BF7-A6F0-AA3E6B32972F" name="Filmy_DVD">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:25 UTC</createdTime>
+<generatorID>A8EE3655-34A6-3A17-955D-EE981A88F585</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>film_dvd</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_płyty" id="0103FD01-3517-E910-35C0-34FAFA12F85B">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>B2BA7AC5-29E4-6FF1-3FDA-AEE1D07F8B55</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Polski_tytuł_filmu" id="8ABBFA45-A622-565B-D008-9001848CAD5C">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>2CA783BF-0759-F86A-4B57-0B8327D2EC93</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Oryginalny_tytuł_filmu" id="505D5662-1C43-9927-C1AE-3A8288D173D6">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>E9E2DA3E-8890-DDDA-4307-529FC57A012F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_produkcji" id="3289E404-9B96-1DDE-22B5-3737A5149505">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>6857C650-0BE6-37CA-ECB8-37DDB72DF099</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gatunek_filmu" id="10FC6F51-EB14-DAFA-1854-799EF4B03177">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>60F88D6D-97A1-00C2-36DD-1A2918135D42</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reżyser" id="6583CA93-1A2B-E6C9-474B-8A47B800C351">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>A7891550-EACD-4B44-74C7-C894214F65B3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj_produkcji" id="F478DEC7-8CD6-65E4-22AA-CC0AC0AC8CF8">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>15A0944D-6DBB-4709-3B75-0B7361F3CBD6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79BD3D54-7B85-D94F-D9B7-EF08188FDFC7" name="Filmy_DVD_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>08255C7F-BC12-2C04-A0E3-F6ACFFD4EE55</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0103FD01-3517-E910-35C0-34FAFA12F85B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

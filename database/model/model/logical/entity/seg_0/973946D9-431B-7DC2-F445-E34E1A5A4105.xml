@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="973946D9-431B-7DC2-F445-E34E1A5A4105" name="Klient">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:14:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID klienta" id="0BB7F3C3-AA85-350D-022F-050DD5C9E14E">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:15:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imię" id="E4E07026-9600-7C00-C212-A826BE56DC8D">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:16:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="E48AAA40-F825-2128-13AF-C2F61A6FA4AD">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:16:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="E972F72D-ECD3-BBA4-A90F-4075EB5D7B57">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:16:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer telefonu" id="6F44612A-3558-5DF5-65B8-0348B733BCF8">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:17:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAFB1D67-160E-00B4-FF0F-373372F36FA7" name="Klient PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:16:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BB7F3C3-AA85-350D-022F-050DD5C9E14E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

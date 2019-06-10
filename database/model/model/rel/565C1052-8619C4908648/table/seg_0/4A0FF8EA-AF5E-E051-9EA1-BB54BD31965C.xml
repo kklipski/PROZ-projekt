@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A0FF8EA-AF5E-E051-9EA1-BB54BD31965C" name="Wypożyczenia">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>83D72FE6-8055-4372-83A2-4EBD9D29C0CB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>wypozyczenie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Data_wypożyczenia" id="43C26973-5D21-5F9A-AFE4-A84E27952BB6">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>12849C9A-D876-F8CB-2492-BA7762256D03</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zwrotu" id="9B5F7667-9731-8FBA-9586-130ABD99156E">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>6CC75A82-0F9F-89D1-2AB2-16DA0CD30AFE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filmy_DVD_ID_płyty" id="DA4A8B74-5AE6-14BF-5D24-EC50393DE480">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>731D8966-06CC-5550-7CF5-4A59EFC011EF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65B3AE6A-4290-6538-4186-33C7D5126F91" referredColumn="0103FD01-3517-E910-35C0-34FAFA12F85B"/>
+</associations>
+</Column>
+<Column name="Klienci_ID_klienta" id="2E3F01C7-39EF-19D0-0C5D-82263B1B4AA2">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>7DEBBDB9-D219-5808-E274-CBEF63ED7401</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B74007B-2CFE-0D5B-3342-1078E49E3C8C" referredColumn="F653BB81-591E-70A2-CB75-3354D39B908B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DE166A4-FC20-DB3F-1315-8ECF49AB0221" name="Wypożyczenia_PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>26035FBC-8002-C2B2-D69F-F6C4A07A3541</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C26973-5D21-5F9A-AFE4-A84E27952BB6"/>
+<colUsage columnID="DA4A8B74-5AE6-14BF-5D24-EC50393DE480"/>
+<colUsage columnID="2E3F01C7-39EF-19D0-0C5D-82263B1B4AA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93CFED3D-B54B-C1F7-F869-08BF58DBC086" name="Wypożyczenia_Filmy_DVD_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>6F9FD954-44C6-1F5A-DF9B-B2BE80D39DA3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4A8B74-5AE6-14BF-5D24-EC50393DE480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37F640DE-A2CE-34D8-F9AC-407687CF511C" name="Wypożyczenia_Klienci_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>7B31A008-91DF-3ADB-B766-5052665CA0CA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E3F01C7-39EF-19D0-0C5D-82263B1B4AA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83D72FE6-8055-4372-83A2-4EBD9D29C0CB" name="Wypożyczenie">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:19:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Data wypożyczenia" id="12849C9A-D876-F8CB-2492-BA7762256D03">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:19:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data zwrotu" id="6CC75A82-0F9F-89D1-2AB2-16DA0CD30AFE">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:22:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID płyty" id="731D8966-06CC-5550-7CF5-4A59EFC011EF">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:25:36 UTC</createdTime>
+<generatorID>6F9FD954-44C6-1F5A-DF9B-B2BE80D39DA3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<referedAttribute>B2BA7AC5-29E4-6FF1-3FDA-AEE1D07F8B55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID klienta" id="7DEBBDB9-D219-5808-E274-CBEF63ED7401">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:29:49 UTC</createdTime>
+<generatorID>7B31A008-91DF-3ADB-B766-5052665CA0CA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="true"/>
+</engineerTo>
+<referedAttribute>0BB7F3C3-AA85-350D-022F-050DD5C9E14E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26035FBC-8002-C2B2-D69F-F6C4A07A3541" name="Wypożyczenie PK">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:22:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="565C1052-FCC9-2C4C-FE76-8619C4908648" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12849C9A-D876-F8CB-2492-BA7762256D03</attributeRef>
+<attributeRef>731D8966-06CC-5550-7CF5-4A59EFC011EF</attributeRef>
+<attributeRef>7DEBBDB9-D219-5808-E274-CBEF63ED7401</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

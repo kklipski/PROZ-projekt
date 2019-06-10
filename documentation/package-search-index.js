@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"dvdrental"},{"l":"dvdrental.client"},{"l":"dvdrental.dvdmovie"},{"l":"dvdrental.rent"},{"l":"dvdrental.rental"},{"l":"dvdrental.update"}]

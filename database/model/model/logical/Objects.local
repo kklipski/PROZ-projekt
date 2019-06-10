@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="83D72FE6-8055-4372-83A2-4EBD9D29C0CB" name="Wypożyczenie" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="042294D9-462B-0817-BC84-819E401C8AF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="973946D9-431B-7DC2-F445-E34E1A5A4105" name="Klient" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="042294D9-462B-0817-BC84-819E401C8AF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A8EE3655-34A6-3A17-955D-EE981A88F585" name="Film DVD" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="042294D9-462B-0817-BC84-819E401C8AF9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="6F9FD954-44C6-1F5A-DF9B-B2BE80D39DA3" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="042294D9-462B-0817-BC84-819E401C8AF9" propertySourceId="A8EE3655-34A6-3A17-955D-EE981A88F585" propertyTargetId="83D72FE6-8055-4372-83A2-4EBD9D29C0CB"/>
+   <object objectType="Relation" objectID="7B31A008-91DF-3ADB-B766-5052665CA0CA" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="042294D9-462B-0817-BC84-819E401C8AF9" propertySourceId="83D72FE6-8055-4372-83A2-4EBD9D29C0CB" propertyTargetId="973946D9-431B-7DC2-F445-E34E1A5A4105"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

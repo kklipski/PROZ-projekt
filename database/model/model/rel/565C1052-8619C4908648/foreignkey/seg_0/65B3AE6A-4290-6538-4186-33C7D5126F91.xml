@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65B3AE6A-4290-6538-4186-33C7D5126F91" containerWithKeyObject="4A0FF8EA-AF5E-E051-9EA1-BB54BD31965C" localFKIndex="93CFED3D-B54B-C1F7-F869-08BF58DBC086" name="Wypożyczenia_Filmy_DVD_FK">
+<createdBy>Kamil</createdBy>
+<createdTime>2019-05-04 21:30:26 UTC</createdTime>
+<generatorID>6F9FD954-44C6-1F5A-DF9B-B2BE80D39DA3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Filmy_DVD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A6C7669-B7D5-5BF7-A6F0-AA3E6B32972F</referredTableID>
+<keyObject>79BD3D54-7B85-D94F-D9B7-EF08188FDFC7</keyObject>
+<referredKeyID>79BD3D54-7B85-D94F-D9B7-EF08188FDFC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_płyty</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
